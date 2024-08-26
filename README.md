@@ -26,9 +26,9 @@ This would output, card brand and different validation outputs like below:
   valid: true,
   luhn_valid: true,
   length_valid: true,
-  cvv_length: [ 3 ],
-  gaps: [ 4, 8, 12 ],
-  supported_lengths: [ 16 ],
+  cvv_length: [3],
+  gaps: [4, 8, 12],
+  supported_lengths: [16],
   max_length: 16
 }
 ```
