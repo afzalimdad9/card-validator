@@ -1,5 +1,5 @@
 {
-  "name": "@juspay/simple-card-validator",
+  "name": "@afzalimdad9/simple-card-validator",
   "version": "1.2.3",
   "description": "Card validation helpers for card number, expiry and CVV.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juspay/card-validator.git"
+    "url": "git+https://github.com/afzalimdad9/card-validator.git"
   },
   "keywords": [
     "card-validation",
@@ -20,7 +20,7 @@
   "author": "boazjohn@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juspay/card-validator/issues"
+    "url": "https://github.com/afzalimdad9/card-validator/issues"
   },
-  "homepage": "https://github.com/juspay/card-validator#readme"
+  "homepage": "https://github.com/afzalimdad9/card-validator#readme"
 }

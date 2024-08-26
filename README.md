@@ -2,14 +2,14 @@
 
 Generic helpers for card number, expiry and CVV validations
 
-[![npm version](https://badge.fury.io/js/%40juspay%2Fsimple-card-validator.svg)](https://badge.fury.io/js/%40juspay%2Fsimple-card-validator)
+[![npm version](https://badge.fury.io/js/%40afzalimdad9%2Fsimple-card-validator.svg)](https://badge.fury.io/js/%40afzalimdad9%2Fsimple-card-validator)
 
 ## Usage:
 Import the library and initialize card object.
 
 Install from npm:
 
-`npm i @juspay/simple-card-validator --save`
+`npm i @afzalimdad9/simple-card-validator --save`
 
 `var cardValidator = require('simple-card-validator');`
 
@@ -62,13 +62,7 @@ For validating CVV, use:
 `card.validateCvv(111);`
 CVV will be validated based on the brand of the card.
 
-
-## Contribution
-
-Read through the development
-[guidelines](https://sites.google.com/a/juspay.in/card-validator-devel-guide/).
-
 ## License
 
-MIT license. Copyright © 2018 - [juspay.in](https://www.juspay.in).
+MIT license. Copyright © 2024 - [afzalimdad9](https://afzalimdad9.vercel.app).
 
