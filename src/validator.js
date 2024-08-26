@@ -82,7 +82,14 @@ var cardTypes = [
     valid_length: [16],
     cvv_length: [3],
     gaps: [4, 8, 12],
-  }
+  },
+  {
+    type: 'sodexo',
+    pattern: /^(637513)/,
+    length: [16],
+    cvcLength: [3],
+    gaps: [4, 8, 12]
+   }
 ];
 
 /**
@@ -179,7 +186,7 @@ function cardValidator(cardNumber) {
       luhn_valid: this.luhnValid,
       length_valid: this.lengthValid,
       cvv_length: this.cvvLength,
-      supported_lengths : this.supportedLengths
+      supported_lengths: this.supportedLengths
     };
   };
 
