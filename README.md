@@ -21,14 +21,16 @@ Or, you can simply use the file from `dist/validator.js` if you are not using no
 `card.getCardDetails();`
 This would output, card brand and different validation outputs like below:
 ```
-{ card_type: 'visa',
+{
+  card_type: 'visa',
   valid: true,
   luhn_valid: true,
   length_valid: true,
   cvv_length: [ 3 ],
   gaps: [ 4, 8, 12 ],
   supported_lengths: [ 16 ],
-  max_length: 16 }
+  max_length: 16
+}
 ```
 
 #### Output format
